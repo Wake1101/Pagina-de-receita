@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+}
+
 :root {
     font-family: "Alice", serif;
     line-height: 150%px;
@@ -18,8 +25,18 @@ body {
     margin: 48px auto;
 }   
 
+main {
+    padding: 24px;
+}
+
 img {
     border-radius: 16px;
+}
+
+h1, h2 {
+    color: #291B1A;
+    line-height: 150%;
+    margin-bottom: 4px;
 }
 
 h1{
@@ -33,6 +50,15 @@ h2 {
     font-weight: 400;
 }
 
-h1, h2 {
-    color: #291B1A;
+main section + section {
+    margin-top: 24px;
 }
+
+#about p + p {
+    margin-top: 12px;
+}
+
+ul {
+    padding-left: 24px;
+}
+
