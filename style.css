@@ -1,9 +1,7 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: grayscale;
+:root {
+    font-family: "Alice", serif;
+    line-height: 150%px;
+    color: #573A37;
 }
 
 body {
@@ -12,6 +10,7 @@ body {
 }
 
 #page {
+    box-sizing: border-box;
     padding: 24px;
     max-width: 800px;
     background-color: #F0E8C2;
@@ -21,4 +20,19 @@ body {
 
 img {
     border-radius: 16px;
+}
+
+h1{
+    line-height: 140%;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h1, h2 {
+    color: #291B1A;
 }
